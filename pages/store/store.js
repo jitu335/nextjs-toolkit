@@ -8,7 +8,7 @@ const makeStore = () =>
   configureStore({
     reducer: {
       [authSlice.name]: authSlice.reducer,
-      [commentSlice.name]: commentSlice.reducer,
+      [commentSlice.name]: commentSlice.reducer,  
     },
     devTools: true,
   });
