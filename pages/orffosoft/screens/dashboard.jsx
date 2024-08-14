@@ -19,6 +19,17 @@ const dashboard = () => {
       <Image src="/images/cap.jpg" height={244} width={244} alt="jitu" />
       <Image src="/images/shirt.jpg" height={244} width={244} alt="jitu" />
       <Image src="/images/lungi.jpg" height={244} width={244} alt="jitu" />
+
+      <div style={{backgroundColor: 'green'}} > 
+      <h1>Hello, Tailwind CSS!</h1>
+    </div> 
+
+      {/* <div className="flex justify-center items-center h-screen bg-gray-100">
+      <h1 className="text-4xl font-bold text-blue-500">Hello, Tailwind CSS!</h1>
+    </div> */}
+
+
+
     </div>
   );
 };
