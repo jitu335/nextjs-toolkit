@@ -1,11 +1,5 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
-import Container from "react-bootstrap/Container";
-import Form from "react-bootstrap/Form";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
-//import footer from '../../orffosoft/screens/footer';
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
@@ -24,9 +18,9 @@ const dashboard = () => {
       <h1>Hello, Tailwind CSS!</h1>
     </div> 
 
-      {/* <div className="flex justify-center items-center h-screen bg-gray-100">
-      <h1 className="text-4xl font-bold text-blue-500">Hello, Tailwind CSS!</h1>
-    </div> */}
+    <div className="flex justify-center items-center h-screen bg-gray-100">
+      <h1 className="text-4xl font-bold text-blue-500">Hello, Tailwind dashboard.jsx!</h1>
+    </div> 
 
 
 
